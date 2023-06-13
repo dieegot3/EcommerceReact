@@ -19,7 +19,7 @@ Con el proyecto y sus dependencias ya instaladas, se debe ejecutar el siguiente 
 También puede se puede visualizar el repositorio desde Vercel en la siguiente url:
 
 ```
-https://react-diego-diaz-g7fupc54n-dieegot3.vercel.app/
+https://ecommerce-react-diaz.vercel.app/
 ```
 
 ## Características del proyecto:
