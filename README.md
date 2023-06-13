@@ -2,24 +2,15 @@
 
 ## Iniciar el proyecto:
 
-_Instalar React:_
+_Despues de tener el proyecto descargado de manera local se debe abrir el proyecto con el editor de código, correr la terminal e instalar las dependencias para su correcto funcionamiento con el siguiente comando:_
 
 ```
-  npx create-react-app
-```
-
-_Dependencias utilizadas en el proyecto:_
-
-```
-  npm i firebase
-  npm i react-icons
-  npm i react-router-dom
-  npm i react-toastify
+  npm i
 ```
 
 ## Ejecutar la app localmente:
 
-Con el proyecto ya instalado, se debe abrir una nueva terminal y ejecutar el siguiente comando que abrirá el proyecto en el navegador en el puerto localhost:3000
+Con el proyecto y sus dependencias ya instaladas, se debe ejecutar el siguiente comando que abrirá el proyecto en el navegador en el puerto localhost:3000
 
 ```
   npm start
