@@ -1,0 +1,40 @@
+* {
+  list-style: none;
+  font-family: "Sora", Arial, sans-serif;
+}
+
+body {
+  background-color: #28262c;
+}
+
+button {
+  color: #28262c;
+}
+
+h1 {
+  color: #cc54eb;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+p {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+picture {
+  width: 60%;
+}

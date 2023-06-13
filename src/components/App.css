@@ -1,0 +1,78 @@
+.divInicial {
+  background-color: aqua;
+}
+
+.cardBody {
+  background-color: white;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.cardBodyDark {
+  background-color: hsl(0, 0%, 33%);
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.itemDetail {
+  max-width: 740px;
+  margin-top: 10px;
+}
+
+.cardCart {
+  max-width: 640px;
+}
+
+.cantCarrito {
+  position: relative;
+  left: 15%;
+}
+
+.cartContainer {
+  margin-top: 3%;
+}
+
+.divForm {
+  margin-top: 20px;
+}
+
+.darkMode {
+  background-color: black;
+  color: gainsboro;
+}
+
+/* DESDE AQUIP */
+
+.divGeneral {
+  background-color: aquamarine;
+}
+
+.Navbar {
+  background-color: #28262c;
+  z-index: 9999;
+  height: 74px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.cartIcon {
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+}
+
+.cartWidget {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+}
+
+.games {
+  width: 75%;
+  margin: 10rem auto;
+}

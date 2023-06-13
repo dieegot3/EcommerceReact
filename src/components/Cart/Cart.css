@@ -1,0 +1,38 @@
+.ContinueContainer {
+  width: 80%;
+  margin: auto;
+  color: #f0f0f0;
+  font-size: 14px;
+}
+
+.Gap {
+  margin-top: 10rem;
+}
+
+.ItemCart {
+  padding-top: 6rem;
+  margin: auto;
+}
+
+.EditCart {
+  width: 80%;
+  margin: auto;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TotalPrice {
+  color: #f0f0f0;
+}
+
+.EditCartBtns {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.MediumBtn {
+  width: 240px;
+}

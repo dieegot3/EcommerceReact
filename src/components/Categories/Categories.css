@@ -1,0 +1,10 @@
+.ActiveOption {
+  font-size: 14px;
+  text-shadow: #abb7f7 5px 1px 8px;
+  color: white;
+}
+
+.Option {
+  font-size: 14px;
+  color: white;
+}
