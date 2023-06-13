@@ -1,6 +1,5 @@
 import "./Item.css";
 import { Link } from "react-router-dom";
-
 export const Item = ({ item }) => {
   return (
     <article className="CardGame">
@@ -11,13 +10,15 @@ export const Item = ({ item }) => {
           <p className="GameInfoOpacity">Categoría: {item.genre}</p>
           <p className="GameInfoOpacity">{item.launch}</p>
         </div>
-        <h4 className="GameInfoPrice">${item.price}</h4>
+        <div className="GameInfoDetails">
+          <h4 className="GameInfoPrice">${item.price}</h4>
+          <button className="ClickSpace">
+            <Link to={`/game/${item.id}`} className="MoreInfo">
+              Ver más
+            </Link>
+          </button>
+        </div>
       </section>
-      <button className="ClickSpace">
-        <Link to={`/game/${item.id}`} className="Option">
-          Ver detalle
-        </Link>
-      </button>
     </article>
   );
 };
